@@ -17,7 +17,6 @@ import kotlinx.android.synthetic.main.nav_bar.*
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
-import kotlin.concurrent.thread
 
 const val initialPage = 1
 const val apiKey = "93aea0c77bc168d8bbce3918cefefa45"
@@ -39,6 +38,7 @@ class MovieListActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_movie_list)
 
+        //Setting the toolbar created by hand
         setSupportActionBar(mToolBar)
         supportActionBar?.setDisplayShowHomeEnabled(true)
         supportActionBar?.setDisplayShowTitleEnabled(true)
