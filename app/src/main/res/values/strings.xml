@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Movie Library Test</string>
+    <string name="search_something">search something</string>
 </resources>
